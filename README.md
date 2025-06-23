@@ -18,7 +18,7 @@ Login with performance_glitch_user and reset the App State. Then filter by name 
     Scenario_3: npm run performance_glitch_user
    
 2. To run all the three test scenarios altogether in a sequential way:
-    Together: npm run locked_outAndstandardAndperformance_glitch
+    npm run locked_outAndstandardAndperformance_glitch
    
-3. To view allure report after every excution:
+4. To view allure report after every excution:
     npm run getReport
