@@ -1,0 +1,4 @@
+"BROKEN","EPIC","FAILED","FEATURE","PASSED","SKIPPED","STORY","UNKNOWN"
+"0","","0","Test Successful Order Placement Funtionalities with standard_user","6","0","","0"
+"0","","0","Test Successful Order Placement Funtionalities with performance_glitch_user","7","0","","0"
+"0","","0","Test Login with locked_out_user","1","0","","0"
