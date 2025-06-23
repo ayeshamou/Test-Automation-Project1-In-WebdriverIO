@@ -22,4 +22,4 @@ Login with performance_glitch_user and reset the App State. Then filter by name 
 npm run locked_outAndstandardAndperformance_glitch
 
 ## To view allure report after every excution:
-    npm run getReport
+npm run getReport
