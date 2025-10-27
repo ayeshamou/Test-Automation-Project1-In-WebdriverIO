@@ -24,10 +24,10 @@ npm -v
 ## Clone the Repository
 
 Clone the project to your local machine using Git:
-
+```bash
 git clone https://github.com/ayeshamou/Test-Automation-Project1-In-WebdriverIO.git
 cd Test-Automation-Project1-In-WebdriverIO
-
+```
 
 Or unzip the project if downloaded as a ZIP file.
 
