@@ -11,6 +11,68 @@ Log in with standard_user. Then, from the hamburger menu, reset the App State. A
 ## Scenario_3:
 Login with performance_glitch_user and reset the App State. Then filter by name (Z to A) and select the first product into the cart. Then navigate up to the final checkout page and verify the product name and the total price. Then finish the purchase journey and verify the successful order message. Then, reset the App State again and log out.
 
+## Install Node.js
+
+Make sure Node.js (v16 or later) and npm are installed on your machine.
+Download from: https://nodejs.org/en/download
+
+Verify installation:
+```bash
+node -v
+npm -v
+```
+## Clone the Repository
+
+Clone the project to your local machine using Git:
+
+git clone https://github.com/ayeshamou/Test-Automation-Project1-In-WebdriverIO.git
+cd Test-Automation-Project1-In-WebdriverIO
+
+
+Or unzip the project if downloaded as a ZIP file.
+
+## Install Dependencies
+
+Install all required Node.js packages:
+
+npm install
+
+
+This will install dependencies defined in the package.json file, such as:
+
+webdriverio → Web automation framework
+
+@wdio/cli → WebdriverIO command-line interface
+
+@wdio/local-runner → For local test execution
+
+@wdio/mocha-framework → Mocha test integration
+
+chai → Assertion library
+
+@wdio/allure-reporter → For generating Allure test reports
+
+## Configure WebdriverIO (if not already configured)
+
+If setting up from scratch, initialize WebdriverIO using:
+
+npx wdio config
+
+
+During setup, choose:
+
+Test runner: Mocha
+
+Reporter: Allure
+
+Browser: Chrome
+
+Services: chromedriver
+
+Base URL: https://www.saucedemo.com
+
+This will generate a wdio.conf.js configuration file.
+
 ## Execution Process in Terminal
 
 ## To run all the three test scenarios separately:
